@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+.header{
+    background-color: #d6cece;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.logo{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+.logo img{
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+}
+.nav{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+}
+.nav a{
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 20px;
+    color: #ff6161;
+}
+
+/*section 1*/
+
+.section-1{
+    background: url("people.jpg");
+    width: 100%;
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-1 a{
+    background-color: #ff4f4f;
+    padding: 20px 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.section-1 h1{
+    margin: 20px 0;
+    font-size: 52px;
+    color: #ffffff;
+}
+.section-1 p{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/*section 2*/
+.section-2{
+ 
+}
+.section-2 p{
+
+
+
+}
+
+/*seccion 3*/
+.section-3{
+    background-color: #d6cece; 
+    width: 100%;
+    height: 82vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.foto{
+    width: 30%;
+    height: 90%;
+    border: 3px solid #7a7a7a;
+    margin: 0 3%;
+}
+.img{
+    width: 100%;
+    height: 43%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+    object-fit: cover;
+    width: 100%;
+}
+.textos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.textos h3{
+    font-size: 32px;
+}
+.textos p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.textos a{
+    text-decoration: none;
+    padding: 20px 40px;
+    font-size: 20px;
+    border: 1px solid #ff4f4f;
+}
+
+/*Nosotros*/
+.Nosotros{
+    background: url("img_fiestas_patrias_n.jpg");
+    background-position: center;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+.Nosotros p{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*footer*/
+.footer{
+    background-color: #1f1f1f;
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo-pie{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo-pie img{
+    object-fit: cover;
+    height: 50%;
+}
+.textos-pie{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #8a8a8a;
+}
+.piederecho{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+
+
+}
+.piederecho a{
+    color: #ffffff;
+    text-decoration:none;
+    font-size: 17px;
+    margin: 0 10px;
+}
+.pieizquierdo{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.pieizquierdo a{
+    color: #ffffff;
+    text-decoration:none;
+    font-size: 17px;
+}
